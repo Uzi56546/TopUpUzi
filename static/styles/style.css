@@ -1,0 +1,59 @@
+/* Gaya untuk notifikasi */
+#notif {
+    display: none; /* Default disembunyikan */
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Notifikasi sukses */
+  #notif.success {
+    background-color: #4caf50; /* Hijau */
+    color: white;
+  }
+  
+  /* Notifikasi error */
+  #notif.error {
+    background-color: #f44336; /* Merah */
+    color: white;
+  }
+  
+  /* Gaya untuk tombol */
+  button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1e40af; /* Warna biru lebih gelap */
+    transform: scale(1.05); /* Efek zoom */
+  }
+  
+  /* Gaya untuk modal pesan */
+  #pesanModal {
+    display: none; /* Default disembunyikan */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #pesanModal.active {
+    display: flex; /* Tampilkan modal */
+  }
+  
+  /* Gaya untuk elemen input */
+  input, select, textarea {
+    border: 1px solid #d1d5db; /* Warna abu-abu */
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #3b82f6; /* Warna biru */
+    outline: none;
+  }
+  
+  /* Gaya untuk form */
+  form {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    border-radius: 8px;
+    padding: 20px;
+  }
